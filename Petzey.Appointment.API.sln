@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petzey.Appointment.API", "Petzey.Appointment.API\Petzey.Appointment.API.csproj", "{7C1D91E8-4A7D-439C-9473-81A0B7E7ADDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Petzey.Appointment.APILayer", "Petzey.Appointment.APILayer", "{B77DE67E-1BE7-4513-8DF7-AAB3C1CDCDF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Petzey.Appointment.DataLayer", "Petzey.Appointment.DataLayer", "{F65097A0-605E-42B6-A437-2020087D537A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Petzey.Appointment.DomainLayer", "Petzey.Appointment.DomainLayer", "{EBA8B6C8-88A0-4A4C-A034-2733EEE27EAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petzey.Appointment.Data", "Petzey.Appointment.Data\Petzey.Appointment.Data.csproj", "{E6D2B36A-E686-4603-A88A-4D9AE2F52F0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petzey.Appointment.Domain", "Petzey.Appointment.Domain\Petzey.Appointment.Domain.csproj", "{B15ED9BC-6521-45CB-ABA2-C8009D937ACA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C1D91E8-4A7D-439C-9473-81A0B7E7ADDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1D91E8-4A7D-439C-9473-81A0B7E7ADDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1D91E8-4A7D-439C-9473-81A0B7E7ADDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1D91E8-4A7D-439C-9473-81A0B7E7ADDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6D2B36A-E686-4603-A88A-4D9AE2F52F0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D2B36A-E686-4603-A88A-4D9AE2F52F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D2B36A-E686-4603-A88A-4D9AE2F52F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D2B36A-E686-4603-A88A-4D9AE2F52F0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B15ED9BC-6521-45CB-ABA2-C8009D937ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B15ED9BC-6521-45CB-ABA2-C8009D937ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B15ED9BC-6521-45CB-ABA2-C8009D937ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B15ED9BC-6521-45CB-ABA2-C8009D937ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C1D91E8-4A7D-439C-9473-81A0B7E7ADDE} = {B77DE67E-1BE7-4513-8DF7-AAB3C1CDCDF7}
+		{E6D2B36A-E686-4603-A88A-4D9AE2F52F0E} = {F65097A0-605E-42B6-A437-2020087D537A}
+		{B15ED9BC-6521-45CB-ABA2-C8009D937ACA} = {EBA8B6C8-88A0-4A4C-A034-2733EEE27EAB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C572B24D-9C3B-4000-9572-277C0CB85CEC}
+	EndGlobalSection
+EndGlobal
